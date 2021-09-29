@@ -11,18 +11,28 @@ function Navbar() {
             </div>
             {/* navitems */}
             <div className="items-center space-x-1">
-                <Link href="/">
-                    <a>Home</a>
-                </Link>
-                <Link href="/">
-                    <a>Home</a>
-                </Link>
-                <Link href="/">
-                    <a>Home</a>
-                </Link>
-                <Link href="/">
-                    <a>Home</a>
-                </Link>
+                <ul>
+                    <li>
+                        <Link href="/">
+                            <a>Home</a>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href="/">
+                            <a>Home</a>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href="/">
+                            <a>Home</a>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href="/">
+                            <a>Home</a>
+                        </Link>
+                    </li>
+                </ul>
             </div>
         </header>
     )
