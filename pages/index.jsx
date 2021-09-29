@@ -9,10 +9,9 @@ export default function Home() {
           <title>Pwani E-learning</title>
           <link rel="icon" href="/logo.png" />
         </Head>
-
-        {/* navabr */}
-        <Navbar />
       </div>
+
+      <Navbar />
     </>
   )
 }
