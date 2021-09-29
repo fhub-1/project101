@@ -10,6 +10,20 @@ function Navbar() {
                     objectFit="contain" objectPosition="left" />
             </div>
             {/* navitems */}
+            <nav class="flex px-8  justify-between">
+
+                <div class="flex items-center space-x-3">
+                    <a class="block p-3">Logo</a>
+                    <a class="block p-3">Features</a>
+                    <a class="block p-3">Pricing</a>
+                </div>
+
+
+                <div class="flex items-center space-x-3">
+                    <a class="block p-3">Sign Up</a>
+                    <a class="block p-3">Login</a>
+                </div>
+            </nav>
 
         </header>
     )
