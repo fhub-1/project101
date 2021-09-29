@@ -12,22 +12,22 @@ function Navbar() {
             {/* navitems */}
             <div className="hidden md:flex items-center space-x-1">
                 <ul>
-                    <li>
+                    <li className="py-4 px-2 text-green-500 border-b-4 border-green-500 font-semibold">
                         <Link href="/">
                             <a>Home</a>
                         </Link>
                     </li>
-                    <li>
+                    <li className="py-4 px-2 text-green-500 border-b-4 border-green-500 font-semibold ">
                         <Link href="/">
                             <a>Home</a>
                         </Link>
                     </li>
-                    <li>
+                    <li className="py-4 px-2 text-green-500 border-b-4 border-green-500 font-semibold ">
                         <Link href="/">
                             <a>Home</a>
                         </Link>
                     </li>
-                    <li>
+                    <li className="py-4 px-2 text-green-500 border-b-4 border-green-500 font-semibold">
                         <Link href="/">
                             <a>Home</a>
                         </Link>
