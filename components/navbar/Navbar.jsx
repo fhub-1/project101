@@ -1,10 +1,14 @@
-import React from 'react'
+import Image from "next/image"
+import LOGO from "../../public/logo.png"
 
 function Navbar() {
     return (
-        <div>
-            <h1>i am header</h1>
-        </div>
+        <header>
+            <div>
+                <Image src={LOGO} alt="logo" layout="fill"
+                    objectFit="contain" objectPosition="left" />
+            </div>
+        </header>
     )
 }
 
