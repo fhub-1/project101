@@ -33,6 +33,19 @@ function Navbar() {
                         </Link>
                     </li>
                 </ul>
+
+                <div class="hidden md:flex items-center space-x-3 ">
+                    <a
+                        href="/"
+                        class="py-2 px-2 font-medium text-gray-500 rounded hover:bg-green-500 hover:text-white transition duration-300"
+                    >Log In</a
+                    >
+                    <a
+                        href="/"
+                        class="py-2 px-2 font-medium text-white bg-green-500 rounded hover:bg-green-400 transition duration-300"
+                    >Sign Up</a
+                    >
+                </div>
             </div>
         </header>
     )
