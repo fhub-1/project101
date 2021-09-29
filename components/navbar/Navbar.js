@@ -9,7 +9,7 @@ function Navbar() {
                     objectFit="contain" objectPosition="left" />
             </div>
             {/* navitems */}
-            <div>
+            <div className="hidden md:flex items-center space-x-1">
                 hello navbar
             </div>
         </header>
