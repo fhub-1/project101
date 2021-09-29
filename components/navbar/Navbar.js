@@ -1,5 +1,6 @@
 import Image from "next/image"
 import LOGO from "../../public/logo.png"
+import Link from 'next/link'
 
 function Navbar() {
     return (
@@ -9,8 +10,19 @@ function Navbar() {
                     objectFit="contain" objectPosition="left" />
             </div>
             {/* navitems */}
-            <div className="hidden md:flex items-center space-x-1">
-                hello navbar
+            <div className="items-center space-x-1">
+                <Link href="/">
+                    <a>Home</a>
+                </Link>
+                <Link href="/">
+                    <a>Home</a>
+                </Link>
+                <Link href="/">
+                    <a>Home</a>
+                </Link>
+                <Link href="/">
+                    <a>Home</a>
+                </Link>
             </div>
         </header>
     )
