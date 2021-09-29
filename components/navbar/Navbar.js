@@ -8,7 +8,7 @@ export default function Navbar(props) {
                 className={
                     (props.transparent
                         ? "top-0 absolute z-50 w-full"
-                        : "relative shadow-lg bg-white shadow-lg") +
+                        : "relative  bg-white shadow-lg") +
                     " flex flex-wrap items-center justify-between px-2 py-3 "
                 }
             >
@@ -144,7 +144,7 @@ export default function Navbar(props) {
                                     type="button"
                                     style={{ transition: "all .15s ease" }}
                                 >
-                                    <i className="fas fa-arrow-alt-circle-down"></i> Download
+                                    <i className="fas fa-arrow-alt-circle-down"></i> Login
                                 </button>
                             </li>
                         </ul>
